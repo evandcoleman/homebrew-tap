@@ -6,6 +6,11 @@ class Scipio < Formula
   license "Apache-2.0"
   head "https://github.com/evandcoleman/Scipio.git", branch: "main"
 
+  bottle do
+    root_url "https://github.com/evandcoleman/homebrew-tap/releases/download/scipio-0.1.3"
+    sha256 cellar: :any_skip_relocation, big_sur: "6db65477dbb4d6507931baf0295eb8e22a2630868f902c6a8e997d2e3da7f365"
+  end
+
   def install
     system "swift", "build", "--disable-sandbox", "-c", "release"
     bin.install ".build/release/scipio"
