@@ -1,8 +1,8 @@
 class Scipio < Formula
   desc "Cache tool for Swift Package Manager"
   homepage "https://github.com/evandcoleman/Scipio"
-  url "https://github.com/evandcoleman/Scipio/archive/refs/tags/0.1.5.tar.gz"
-  sha256 "eebdba128588bba5cbbdeeaeba2872d7fb4a73a1c9e1c728cc7977c64d16115d"
+  url "https://github.com/evandcoleman/Scipio/archive/refs/tags/0.1.6.tar.gz"
+  sha256 "34881cb678e309059986e2d94db94928f8ac61ca7002c85956d58f5decb23810"
   license "Apache-2.0"
   head "https://github.com/evandcoleman/Scipio.git", branch: "main"
 
