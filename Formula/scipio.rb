@@ -7,8 +7,8 @@ class Scipio < Formula
   head "https://github.com/evandcoleman/Scipio.git", branch: "main"
 
   bottle do
-    root_url "https://github.com/evandcoleman/homebrew-tap/releases/download/scipio-0.1.13"
-    sha256 cellar: :any_skip_relocation, big_sur: "48d08f1136da861c0798ee85f9ce8ed5830aa0853652e87429ece98aa8b5adcc"
+    root_url "https://github.com/evandcoleman/homebrew-tap/releases/download/scipio-0.1.14"
+    sha256 cellar: :any_skip_relocation, big_sur: "b3af61b9ddc3b45cae14398726d15bf67094c3463d395a76bb99ce5ff74ea574"
   end
 
   def install
