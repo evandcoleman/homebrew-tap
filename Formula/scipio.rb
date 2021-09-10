@@ -11,6 +11,9 @@ class Scipio < Formula
     sha256 cellar: :any_skip_relocation, big_sur: "8105362c7519e6deaff99ae982a6baff99a0d8524eaebae200fa357f1fa671ba"
   end
 
+  depends_on xcode: ["11.0", :build]
+  depends_on :macos
+
   def install
     system "swift", "build", "--disable-sandbox", "-c", "release"
     bin.install ".build/release/scipio"
