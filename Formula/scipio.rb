@@ -7,9 +7,10 @@ class Scipio < Formula
   head "https://github.com/evandcoleman/Scipio.git", branch: "main"
 
   bottle do
-    root_url "https://github.com/evandcoleman/homebrew-tap/releases/download/scipio-0.2.7"
-    sha256 cellar: :any_skip_relocation, big_sur:  "9dbf80a78dfe5eda96cbf94c5197f9df1a88626aa33930956641e2e531cebcd9"
-    sha256 cellar: :any_skip_relocation, catalina: "835aca922638c1d137f3cdbb34fdb4775e7bc5f1893ed815c44edc775bc76379"
+    root_url "https://github.com/evandcoleman/homebrew-tap/releases/download/scipio-0.2.8"
+    sha256 cellar: :any_skip_relocation, monterey: "edfb82c3d70894c149229931263aef4fce332b106d425b1ede45147388bbea7d"
+    sha256 cellar: :any_skip_relocation, big_sur:  "365c87e6c0e7ed6bb5879710e3c0c577d43b91f118460d3a6371506c44bcc50f"
+    sha256 cellar: :any_skip_relocation, catalina: "5eb065a2efdc4d42a622fe3f550aa5ebe6f3d5f5a27b51dac167dfece1db14c9"
   end
 
   depends_on xcode: ["11.0", :build]
